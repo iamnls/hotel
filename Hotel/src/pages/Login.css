@@ -1,0 +1,75 @@
+.login-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    text-align: center;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .submit-button:disabled {
+    background: #999;
+    cursor: not-allowed;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .recaptcha-container {
+    margin: 15px 0;
+  }
+  
+  .form-links {
+    margin-top: 20px;
+  }
+  
+  .form-links a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .form-options {
+    margin: 10px 0;
+  }
+  
